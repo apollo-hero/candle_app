@@ -2,8 +2,9 @@
   <div class="container">
     <div class="back" style="text-align: start; margin: 20px 0 0 -0;">
       <router-link to="/"><i class='fas fa-arrow-left' style='font-size:48px;color: #989696'></i></router-link>
-      <div style="text-align: center; padding-top: 60px;">{{ quote }}</div>
     </div>
+    <br>
+    <div style="text-align: center; padding-top: 100px;">{{ quote }}</div>
     <div class="candle">
       <div class="flame">
         <div class="shadows"></div>
@@ -34,8 +35,7 @@ export default {
       .then(response => {
         this.quote = response.data.contents.quotes[0].quote
       })
-      
-}
+  }
 }
 </script>
 

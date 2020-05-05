@@ -13,7 +13,7 @@
     <div class="about" style="margin-top: -100px;">
       <i class='fas fa-info-circle' style='font-size: 35px; color: #bbb9b9'></i>
         <router-link to="/about"><h5>About</h5></router-link>
-        <button style="color: #000000; margin-top: 50px; padding: 0 70px 0 70px;">Go to candle room</button>
+        <router-link to="/candle"><button style="color: #000000; margin-top: 50px; padding: 0 70px 0 70px;">Go to candle room</button></router-link>
     </div>
 
   </div>
@@ -25,7 +25,7 @@ export default {
   name: 'Home'
 }
 </script>
-<style lang="scss">
+<style>
   body{
     background: #111;
     display: flex;
@@ -37,6 +37,9 @@ export default {
     text-align: center;
     overflow: hidden;
   }
+</style>
+<style lang="scss">
+
 
   $flame-height: 90px;
   $wick-height: 30px;
