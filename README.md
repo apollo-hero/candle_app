@@ -1,3 +1,9 @@
+Hello, Kailish. 
+I am liliya from freelancer.com
+please contact  me. 
+my email: apollon71star@gmail.com
+skype id: live:.cid.824d21aa68f43272
+
 # candle_app
 
 ## Project setup
