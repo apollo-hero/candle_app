@@ -39,6 +39,7 @@ export default {
 }
 </script>
 
+// scss part
 <style lang="scss">
   body{
     background: #111;
