@@ -38,9 +38,8 @@ export default {
     overflow: hidden;
   }
 </style>
+
 <style lang="scss">
-
-
   $flame-height: 90px;
   $wick-height: 30px;
   $orange: #ff6a00;
